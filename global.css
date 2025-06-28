@@ -1,0 +1,7 @@
+header {
+  height:60px;
+  width:100vw;
+  position:fixed;
+  background-color:lightgrey;
+  color:black;
+}
