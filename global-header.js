@@ -24,7 +24,7 @@ const headerHTML = `
   </div>
 </header>
 <div id="sidebar" class="sidebar">
-    <a href="https://6419-ice.github.io/6419-Website/">Home</a>
+    <a href="index">Home</a>
     <hr style="border-top: 1px;margin: 0;">
     <a href="about">About</a>
     <hr style="border-top: 1px;margin: 0;">
