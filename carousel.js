@@ -1,9 +1,9 @@
     const imageUrls = [
-      "https://codehs.com/uploads/740ffb834b7b6dcc59a41d27c66990ae?text=Image+1",
-      "https://codehs.com/uploads/fef992eadaed70b563d886eeba99aba0?text=Image+2",
-      "https://codehs.com/uploads/18426a4920a31a86f3030161ff7e5e97?text=Image+3",
-      "https://codehs.com/uploads/8057d872d7692baff45215484700c528?text=Image+4",
-      "https://codehs.com/uploads/abf740fbd40b0c11f8b315a36cad07f4?text=Image+5"
+      "https://codehs.com/uploads/7a69e0edd90a208df914b080f5ab27b8?text=Image+1",
+      "https://codehs.com/uploads/7a69e0edd90a208df914b080f5ab27b8?text=Image+2",
+      "https://codehs.com/uploads/7a69e0edd90a208df914b080f5ab27b8?text=Image+3",
+      "https://codehs.com/uploads/7a69e0edd90a208df914b080f5ab27b8?text=Image+4",
+      "https://codehs.com/uploads/7a69e0edd90a208df914b080f5ab27b8?text=Image+5"
     ];
     let currentIndex = 0;
     const imageElement = document.getElementById("carousel-image");

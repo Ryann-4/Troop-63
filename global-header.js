@@ -1,9 +1,4 @@
 const headerHTML = `
-<header style="display:block;">
-  <p style="color:white; margin-top:15px; text-align:center;">
-    I.C.E. for Innovation, Collaboration, and Exellence
-  </p>
-</header>
 <header style="background-color:transparent;>
   <div style="display: flex; align-items: center;">
     <button class="menu-button" onclick="toggleSidebar()">
@@ -24,12 +19,12 @@ const headerHTML = `
     <script src="searchbar.js">    
     </script>
     <a href="index">
-      <img class="logo" src="https://codehs.com/uploads/cb46df9431dd7ffe3372f71a3c7a97a8" alt="ICE">
+      <img class="logo" src="https://codehs.com/uploads/7a69e0edd90a208df914b080f5ab27b8" alt="ICE">
     </a>
   </div>
 </header>
 <div id="sidebar" class="sidebar">
-    <a href="https://6419-ice.github.io/6419-Website/">Home</a>
+    <a href="https://ryann-4.github.io/Troop-63/">Home</a>
     <hr style="border-top: 1px;margin: 0;">
     <a href="about">About</a>
     <hr style="border-top: 1px;margin: 0;">
@@ -43,7 +38,6 @@ const headerHTML = `
   <br>
   <br>
 `;
-
 document.addEventListener("DOMContentLoaded", () => {
   const headerWrapper = document.createElement("div");
   headerWrapper.innerHTML = headerHTML;

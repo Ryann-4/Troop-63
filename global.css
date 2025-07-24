@@ -20,7 +20,7 @@ body {
     background-color: white;
 }
 header {
-    background-color: #002D72;
+    background-color: black;
     padding:3px;
     display: block;
     width: 100%;
@@ -34,11 +34,12 @@ header {
     -ms-user-select: none;
     user-select: none;
     text-align:right;
+    color:white;
 }
 footer {
     padding: 2px;
-    background-color: #FF6720;
-    color: #000;
+    background-color: black;
+    color: white;
     height:30;
     position: fixed;
     bottom:0;
@@ -169,7 +170,7 @@ a {
       top: 45px;
       right: 0;
       background: white;
-      color: #002D72;
+      color: black;
       width: 240px;
       padding: 5px;
       display: none;
@@ -198,7 +199,7 @@ a {
     }
     .no-results {
       padding: 5px 10px;
-      color: #002D72;
+      color: black;
     }
     header {
       display: flex;
@@ -226,7 +227,7 @@ a {
       margin-left: 5vw;
     }
     .icon-group:hover {
-      color:#002D72
+      color: black;
     }
     .cntcticons {
       height: 150px;
