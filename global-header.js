@@ -1,5 +1,5 @@
 const headerHTML = `
-<header style="background-color:transparent;>
+<header>
   <div style="display: flex; align-items: center;">
     <button class="menu-button" onclick="toggleSidebar()">
       <span></span>
@@ -24,7 +24,7 @@ const headerHTML = `
   </div>
 </header>
 <div id="sidebar" class="sidebar">
-    <a href="https://ryann-4.github.io/Troop-63/">Home</a>
+    <a href="https://6419-ice.github.io/6419-Website/">Home</a>
     <hr style="border-top: 1px;margin: 0;">
     <a href="about">About</a>
     <hr style="border-top: 1px;margin: 0;">
@@ -38,6 +38,7 @@ const headerHTML = `
   <br>
   <br>
 `;
+
 document.addEventListener("DOMContentLoaded", () => {
   const headerWrapper = document.createElement("div");
   headerWrapper.innerHTML = headerHTML;
