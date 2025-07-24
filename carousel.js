@@ -22,7 +22,7 @@
         imageElement.onload = () => {
           imageElement.style.opacity = 1;
         };
-      }, 300); // Fade-out duration
+      }, 300);
     }
     function goToImage(index) {
       currentIndex = index;
